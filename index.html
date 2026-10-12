@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOVA Market</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="#" class="logo">
+                <span class="logo-mark">N</span>
+                <span>NOVA</span>
+            </a>
+
+            <nav class="desktop-nav">
+
+                <a href="#" class="active">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#categories">Categories</a>
+                <a href="#deals">Deals</a>
+
+            </nav>
+
+            <div class="header-actions">
+
+                <button class="icon-button" aria-label="Search">
+                    
+                </button>
+
+                <button class="icon-button" aria-label="Wishlist">
+                    ♡
+                    <span class="badge">0</span>
+                </button>
+
+                <button class="icon-button" aria-label="Shopping cart">
+                    🛒
+                    <span class="badge">0</span>
+                </button>
+
+                <button class="profile-button" aria-label="Profile">
+                    👤
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        
+
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-badge">
+                    
+                    </span>
+ 
+                    <h1>
+                        Everything You Want.
+                        <span>One Place.</span>
+                    </h1>
+
+                    <p>
+                        Discover products you'll love,
+                        from everyday essentials to
+                        the latest trends.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#shop" class="btn btn-primary">
+                            Shop Now
+                        </a>
+
+                        <a href="#categories" class="btn btn-secondary">
+                            Explore Categories
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="hero-product">
+
+                        <span class="sale-badge">
+                            NEW
+                        </span>
+
+                        <div class="product-placeholder">
+                            🛍️
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="categories-section" id="categories">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-label">
+                            EXPLORE
+                        </span>
+
+                        <h2>
+                            Shop by Category
+                        </h2>
+                    </div>
+
+                    <a href="#shop" class="view-link">
+                        View all →
+                    </a>
+
+                </div>
+
+
+                <div class="category-grid">
+
+                    <article class="category-card">
+
+                        <div class="category-icon">
+                            🎧
+                        </div>
+
+                        <h3>
+                            Electronics
+                        </h3>
+
+                        <p>
+                            120+ Products
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <div class="category-icon">
+                            👕
+                        </div>
+
+                        <h3>
+                            Fashion
+                        </h3>
+
+                        <p>
+                            240+ Products
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <div class="category-icon">
+                            🏠
+                        </div>
+
+                        <h3>
+                            Home & Living
+                        </h3>
+
+                        <p>
+                            180+ Products
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <div class="category-icon">
+                            ✨
+                        </div>
+
+                        <h3>
+                            Beauty
+                        </h3>
+
+                        <p>
+                            95+ Products
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <div class="category-icon">
+                            🏃
+                        </div>
+
+                        <h3>
+                            Sports
+                        </h3>
+
+                        <p>
+                            75+ Products
+                        </p>
+
+                    </article>
+
+
+                    <article class="category-card">
+
+                        <div class="category-icon">
+                            🎒
+                        </div>
+
+                        <h3>
+                            Accessories
+                        </h3>
+
+                        <p>
+                            150+ Products
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+       
+        <section class="products-section" id="shop">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            OUR COLLECTION
+                        </span>
+
+                        <h2>
+                            Featured Products
+                        </h2>
+
+                    </div>
+
+                    <a href="#" class="view-link">
+                        View all →
+                    </a>
+
+                </div>
+
+
+
+                <div class="shop-controls">
+
+                    <div class="product-search">
+
+                        <span>🔍</span>
+
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Search products..."
+                        >
+
+                    </div>
+
+
+                    <div class="category-filters">
+
+                        <button
+                            class="filter-button active"
+                            data-category="all"
+                        >
+                            All
+                        </button>
+
+                        <button
+                            class="filter-button"
+                            data-category="Electronics"
+                        >
+                            Electronics
+                        </button>
+
+                        <button
+                            class="filter-button"
+                            data-category="Fashion"
+                        >
+                            Fashion
+                        </button>
+
+                        <button
+                            class="filter-button"
+                            data-category="Home"
+                        >
+                            Home
+                        </button>
+
+                        <button
+                            class="filter-button"
+                            data-category="Beauty"
+                        >
+                            Beauty
+                        </button>
+
+                        <button
+                            class="filter-button"
+                            data-category="Sports"
+                        >
+                            Sports
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div
+                    class="product-grid"
+                    id="productGrid"
+                ></div>
+
+
+                <div
+                    class="empty-state"
+                    id="emptyState"
+                    hidden
+                >
+                    <div>
+                        🔎
+                    </div>
+
+                    <h3>
+                        No products found
+                    </h3>
+
+                    <p>
+                        Try another search or category.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="deal-section" id="deals">
+
+            <div class="container deal-content">
+
+                <div>
+
+                    <span class="section-label">
+                        LIMITED TIME
+                    </span>
+
+                    <h2>
+                        Up to 40% Off
+                    </h2>
+
+                    <p>
+                        Don't miss our special deals
+                        on selected products.
+                    </p>
+
+                    <a
+                        href="#shop"
+                        class="btn btn-primary"
+                    >
+                        Shop Deals
+                    </a>
+
+                </div>
+
+                <div class="deal-icon">
+                    🏷️
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-mark">N</span>
+                    <span>NOVA</span>
+                </a>
+
+                <p>
+                    Everything you want,
+                    one place.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Shop
+                </h4>
+
+                <a href="#shop">
+                    All Products
+                </a>
+
+                <a href="#categories">
+                    Categories
+                </a>
+
+                <a href="#deals">
+                    Deals
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Support
+                </h4>
+
+                <a href="#">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Shipping
+                </a>
+
+                <a href="#">
+                    Returns
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Follow Us
+                </h4>
+
+                <div class="social-links">
+
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 NOVA Market. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+        <div>
+            <span class="section-label">YOUR BAG</span>
+            <h2>Shopping Cart</h2>
+        </div>
+
+        <button class="close-cart" id="closeCart">
+            ×
+        </button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+    </div>
+
+    <div class="cart-empty" id="cartEmpty">
+        <div class="cart-empty-icon">🛒</div>
+        <h3>Your cart is empty</h3>
+        <p>Add products to your cart and they will appear here.</p>
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+            <span>Total</span>
+            <strong id="cartTotal">$0.00</strong>
+        </div>
+
+        <button class="checkout-button" id="checkoutButton">
+            Proceed to Checkout
+        </button>
+
+    </div>
+
+<div class="wishlist-overlay" id="wishlistOverlay"></div>
+
+<aside class="wishlist-drawer" id="wishlistDrawer">
+
+    <div class="wishlist-header">
+        <div>
+            <span class="section-label">SAVED ITEMS</span>
+            <h2>My Wishlist</h2>
+        </div>
+
+        <button class="close-wishlist" id="closeWishlist">
+            ×
+        </button>
+    </div>
+
+    <div class="wishlist-items" id="wishlistItems">
+    </div>
+
+    <div class="wishlist-empty" id="wishlistEmpty">
+        <div class="wishlist-empty-icon">♡</div>
+        <h3>Your wishlist is empty</h3>
+        <p>Save products you love and find them here later.</p>
+    </div>
+
+</aside>
+
+<div class="product-modal-overlay" id="productModalOverlay">
+
+    <div class="product-modal" id="productModal">
+
+        <button
+            class="close-product-modal"
+            id="closeProductModal"
+            aria-label="Close product details"
+        >
+            ×
+        </button>
+
+        <div class="product-modal-content" id="productModalContent">
+
+        </div>
+
+    </div>
+
+</div>
+
+</aside>
+
+<!-- CHECKOUT MODAL -->
+<div class="checkout-overlay" id="checkoutOverlay">
+
+    <div class="checkout-modal">
+
+        <button
+            class="close-checkout"
+            id="closeCheckout"
+            aria-label="Close checkout"
+        >
+            ×
+        </button>
+
+        <div class="checkout-header">
+            <span class="section-label">NOVA MARKET</span>
+            <h2>Complete Your Order</h2>
+            <p>Enter your details to complete this demo purchase.</p>
+        </div>
+
+        <div class="checkout-layout">
+
+            <!-- CUSTOMER INFORMATION -->
+
+            <form class="checkout-form" id="checkoutForm">
+
+                <h3>Customer Information</h3>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="firstName">
+                            First Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="firstName"
+                            placeholder="Halima"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">
+                            Last Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="lastName"
+                            placeholder="Hassan"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="you@example.com"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+254 700 000 000"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="address">
+                        Delivery Address
+                    </label>
+
+                    <input
+                        type="text"
+                        id="address"
+                        placeholder="Street / Building"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="city">
+                            City
+                        </label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            placeholder="Nairobi"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="country">
+                            Country
+                        </label>
+
+                        <select id="country" required>
+
+                            <option value="">
+                                Select country
+                            </option>
+
+                            <option value="Kenya">
+                                Kenya
+                            </option>
+
+                            <option value="Uganda">
+                                Uganda
+                            </option>
+
+                            <option value="Tanzania">
+                                Tanzania
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <h3 class="payment-heading">
+                    Payment Method
+                </h3>
+
+                <div class="payment-options">
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="card"
+                            required
+                        >
+
+                        <span>💳 Card</span>
+
+                    </label>
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="mpesa"
+                        >
+
+                        <span>📱 M-Pesa</span>
+
+                    </label>
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="cash"
+                        >
+
+                        <span>💵 Cash</span>
+
+                    </label>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="place-order-button"
+                >
+                    Place Order
+                </button>
+
+            </form>
+
+
+            <!-- ORDER SUMMARY -->
+
+            <div class="checkout-summary">
+
+                <h3>Order Summary</h3>
+
+                <div
+                    class="checkout-items"
+                    id="checkoutItems"
+                >
+                    <!-- Generated by JavaScript -->
+                </div>
+
+                <div class="summary-line">
+
+                    <span>Subtotal</span>
+
+                    <strong id="checkoutSubtotal">
+                        $0.00
+                    </strong>
+
+                </div>
+
+                <div class="summary-line">
+
+                    <span>Delivery</span>
+
+                    <strong id="checkoutDelivery">
+                        $5.00
+                    </strong>
+
+                </div>
+
+                <div class="summary-divider"></div>
+
+                <div class="summary-total">
+
+                    <span>Total</span>
+
+                    <strong id="checkoutTotal">
+                        $0.00
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ORDER SUCCESS -->
+<div
+    class="success-overlay"
+    id="successOverlay"
+>
+
+    <div class="success-modal">
+
+        <div class="success-icon">
+            ✓
+        </div>
+
+        <h2>Order Placed!</h2>
+
+        <p>
+            Thank you for shopping with NOVA Market.
+            Your  order has been received.
+        </p>
+
+        <div class="order-number">
+            Order #NOVA-<span id="orderNumber"></span>
+        </div>
+
+        <button
+            class="btn btn-primary"
+            id="continueShopping"
+        >
+            Continue Shopping
+        </button>
+
+    </div>
+
+</div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
